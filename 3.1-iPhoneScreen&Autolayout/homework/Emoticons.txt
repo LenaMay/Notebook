@@ -1,0 +1,22 @@
+typedef struct {
+    char const *const key, *const name, *const image;
+} LPEmoticonInfo;
+
+static const LPEmoticonInfo LP_EMOTICON_INFO[] = {
+    { .key = "[wx]", .name = "微笑", .image = "expression_11" },
+    { .key = "[hk]", .name = "好困", .image = "expression_12" },
+    { .key = "[dy]", .name = "得意", .image = "expression_13" },
+    { .key = "[pz]", .name = "撇嘴", .image = "expression_14" },
+    { .key = "[hx]", .name = "憨笑", .image = "expression_21" },
+    { .key = "[dk]", .name = "大哭", .image = "expression_22" },
+    { .key = "[tp]", .name = "调皮", .image = "expression_23" },
+    { .key = "[yw]", .name = "疑问", .image = "expression_24" },
+    { .key = "[jy]", .name = "惊讶", .image = "expression_31" },
+    { .key = "[lh]", .name = "厉害", .image = "expression_32" },
+    { .key = "[cb]", .name = "崇拜", .image = "expression_33" },
+    { .key = "[fz]", .name = "奋战", .image = "expression_34" },
+    { .key = "[yu]", .name =  "晕" , .image = "expression_41" },
+    { .key = "[se]", .name =  "色" , .image = "expression_42" },
+    { .key = "[wy]", .name = "无语", .image = "expression_43" },
+    { .key = "[sh]", .name =  "衰" , .image = "expression_44" } };
+
